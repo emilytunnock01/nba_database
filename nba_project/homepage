@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        body 
+        {
+          background-color: lightgray;
+          font-size: 29px;
+          font-family: monospace;
+          color: #274889; 
+        }
+        h3
+        {
+            -webkit-text-stroke: 1px #000000;
+        }
+        button 
+        {
+        width: 300px;
+        height: 50px;
+        font-family: monospace; /* Specify font family */
+        font-size: 20px; /* Specify font size */
+        font-weight: bold; /* Specify font weight */
+        color: white; /* Specify text color */
+        background-color: 	#274889; /* Specify background color */
+        border-radius: 4px;
+        cursor: pointer; /* Change cursor to pointer on hover */
+        }
+    </style>
+<body> 
+
+    <h3>MENU:</h3>
+    
+
+
+    <a href= 'teamPage.php' ><button >Teams</button></a> <br>
+    <a href= 'playerPage.php'><button>Players</button></a> <br>
+    <a href= 'injuryPage.php'><button>Injuries</button></a> <br>
+    <a href="userPage.php"><button>Users</button></a> <br>
+    <a href= "favPage.php"><button>Add Users</button></a> <br>
+
+    <img src="databasePic.png" style=" height: 250px; width: 450px; position:relative; left:350px; bottom: 250px;">
+    
+
+
+
+
+</body>
+</html>
